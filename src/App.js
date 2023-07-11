@@ -45,28 +45,38 @@ function App() {
           </button>
         </div>
         <div className="collectionsContainer">
-          <div className="goldenHourContainer">
-            <img
-              className="goldenHourImage"
-              src="https://www.cartier.com/content/images/cms/ycm/resource/blob/531942/2d1c27afae055bad3bb759fff955e3aa/picture-a-data.jpg/w1920.jpg"
-            ></img>
-            {/* <h2 className="goldenHourSummerTimeHeader">Golden hour</h2> */}
-            {/* <p>
-              How to shine at the beach. Earrings, necklaces, rings: the
-              Maison's creations love to soak up the sun.
-            </p>
-            <button>Discover the selection</button> */}
+          <div className="collectionsContainer">
+            <div className="goldenHourContainer">
+              <img
+                className="goldenHourImage"
+                src="https://www.cartier.com/content/images/cms/ycm/resource/blob/531942/2d1c27afae055bad3bb759fff955e3aa/picture-a-data.jpg/w1920.jpg"
+              ></img>
+              <div>
+                <h2>Golden hour</h2>
+                <p>
+                  How to shine at the beach. Earrings, necklaces, rings: the
+                  Maison's creations love to soak up the sun.
+                </p>
+                <button className="discoverSelectionButton">
+                  Discover the selection
+                </button>
+              </div>
+            </div>
             <div className="summerTimeContainer">
               <img
                 className="summerTimeImage"
                 src="https://www.cartier.com/content/images/cms/ycm/resource/blob/531916/9ed371f1813a4deb1151cca58a519456/picture-b-data.jpg/w1920.jpg"
               ></img>
-              {/* <h2 className="goldenHourHeader">Golden hour</h2>
-              <p>
-                Uncover the watch collections that have become emblems of design
-                at Cartier.
-              </p>
-              <button>Discover the selection</button> */}
+              <div>
+                <h2>Summer time</h2>
+                <p>
+                  Uncover the watch collections that have become emblems of
+                  design at Cartier.
+                </p>
+                <button className="discoverSelectionButton">
+                  Discover the selection
+                </button>
+              </div>
             </div>
           </div>
         </div>

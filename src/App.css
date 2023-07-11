@@ -26,6 +26,8 @@
   font-size: larger;
 }
 
+/* _____🍋🍋🍋🍋🍋 MAIN CONTENT 🍋🍋🍋🍋🍋_____ */
+
 .mainContainer {
   background-color: rgb(255, 255, 255);
 }
@@ -34,6 +36,7 @@
   padding-left: 6rem;
   padding-right: 6rem;
 }
+
 .sunshineIconsImage {
   height: 100%;
   width: 100%;
@@ -42,6 +45,41 @@
 .sunshineIconsHeader {
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.collectionsContainer {
+  display: flex;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  justify-content: center;
+}
+
+.goldenHourContainer {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.goldenHourImage {
+  justify-content: center;
+  display: flex;
+  height: 450px;
+  max-width: 450px;
+}
+
+.summerTimeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.summerTimeImage {
+  display: flex;
+  height: 450px;
+  max-width: 450px;
 }
 
 .discoverSelectionButton {
@@ -54,39 +92,14 @@
   display: inline-block;
   font-size: 16px;
   font-style: italic;
+  color: brown;
 }
 
-.collectionsContainer {
-  display: inline-flex;
-  padding-left: 6rem;
-  padding-right: 6rem;
-  padding-top: 4rem;
-}
-.goldenHourContainer {
-  display: flex;
+.discoverSelectionButton:hover {
+  color: rgb(0, 0, 0);
 }
 
-.summerTimeContainer {
-  display: flex;
-  padding-left: 1rem;
-  width: 100%;
-}
-
-.goldenHourImage {
-  display: inline-flex;
-  height: 50%;
-  width: 100%;
-}
-
-.summerTimeImage {
-  display: inline-flex;
-  height: 50%;
-  width: 100%;
-}
-
-.goldenHourSummerTimeHeader {
-  display: flex;
-}
+/* _____🍎🍎🍎🍎🍎 FOOTER CONTENT 🍎🍎🍎🍎🍎_____ */
 
 .footerContainer {
   background-color: blanchedalmond;
