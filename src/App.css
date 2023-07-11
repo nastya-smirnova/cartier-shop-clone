@@ -93,10 +93,73 @@
   font-size: 16px;
   font-style: italic;
   color: brown;
+  padding: 1rem;
 }
 
 .discoverSelectionButton:hover {
   color: rgb(0, 0, 0);
+}
+
+.cultureOfDesignContainer {
+  padding: 1rem;
+  background-color: rgb(240, 240, 240);
+}
+
+.watchesContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  height: 450px;
+}
+
+.watchesImages {
+  display: flex;
+  height: 200px;
+  max-width: 200px;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.santosContainer {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}
+
+.santosContainer:hover + .hide {
+  justify-content: center;
+  flex-direction: column;
+  display: block;
+  background-color: rgb(255, 255, 255);
+}
+
+.santosContainer:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.addToBagButton {
+  justify-content: center;
+  color: white;
+  background-color: black;
+  padding: 12px;
+}
+
+.onHoverHeart {
+  position: relative;
+  top: -355px;
+  left: 45px;
+}
+
+.onHoverArrow {
+  position: relative;
+  top: -200px;
+  left: 30px;
 }
 
 /* _____🍎🍎🍎🍎🍎 FOOTER CONTENT 🍎🍎🍎🍎🍎_____ */
