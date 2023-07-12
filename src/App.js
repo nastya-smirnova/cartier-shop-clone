@@ -5,7 +5,6 @@ import {
   faBars,
   faBasketShopping,
   faHeart,
-  faHeartCircleBolt,
   faLocationPin,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
@@ -95,60 +94,64 @@ function App() {
                   className="watchesImages"
                   src="https://www.cartier.com/variants/images/44733502651435035/img1/w960_tpadding12.jpg"
                 ></img>
-                <figcaption>
-                  SANTOS DE
-                  <br /> CARTIER
-                  <br /> WATCH
+                <figcaption className="imageCaption">
+                  SANTOS DE <br />
+                  CARTIER <br />
+                  WATCH
                 </figcaption>
                 <p>Medium model, automatic...</p>
-                <p>£ 6,750</p>
-              </div>
-              <div className="hide">
+                <p className="price">£ 6,750</p>
                 <button className="addToBagButton">Add to bag</button>
-                <FontAwesomeIcon className="onHoverHeart" icon={faHeart} />
-                <FontAwesomeIcon
-                  className="onHoverArrow"
-                  icon={faArrowAltCircleRight}
-                />
               </div>
+              {/* <div className="hide">
+                <button className="addToBagButton">Add to bag</button>
+              </div> */}
             </div>
+
             <div className="santosContainer">
               <img
                 className="watchesImages"
                 src="https://www.cartier.com/variants/images/25458910981768052/img1/w960_tpadding12.jpg"
               ></img>
-              <figcaption>
+              <figcaption className="imageCaption">
                 JUSTE UN CLOU <br />
                 BRACELET,
                 <br /> SMALL MODEL
               </figcaption>
               <p>Yellow gold</p>
-              <p>£ 3,450</p>
+              <p className="price">£ 3,450</p>
+              <button className="addToBagButton">Shop</button>
             </div>
             <div className="santosContainer">
               <img
                 className="watchesImages"
                 src="https://www.cartier.com/variants/images/13452677149801337/img1/w960_tpadding12.jpg"
               ></img>
-              <figcaption>TANK LOUIS CARTIER WATCH</figcaption>
+              <figcaption className="imageCaption">
+                TANK LOUIS <br />
+                CARTIER <br />
+                WATCH
+              </figcaption>
               <p>
                 Large model, quartz <br />
                 movement, 18K...
               </p>
-              <p>£ 11,000</p>
+              <p className="price">£ 11,000</p>
+              <button className="addToBagButton">Add to bag</button>
             </div>
             <div className="santosContainer">
               <img
                 className="watchesImages"
                 src="https://www.cartier.com/variants/images/25372685655708131/img1/w960_tpadding12.jpg"
               ></img>
-              <figcaption>
+              <figcaption className="imageCaption">
                 LOVE <br />
                 BRACELET, <br />
                 SMALL MODEL
               </figcaption>
               <p>Yellow gold</p>
-              <p>£ 4,550</p>
+              <p className="price">£ 4,550</p>
+              <button className="addToBagButton">Shop</button>
             </div>
           </div>
         </div>

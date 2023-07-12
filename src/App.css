@@ -143,11 +143,26 @@
   background-color: rgb(255, 255, 255);
 }
 
+.price {
+  font-weight: 600;
+}
+
+.imageCaption {
+  flex-wrap: wrap;
+  font-weight: 600;
+}
+
 .addToBagButton {
   justify-content: center;
+  flex-direction: column;
   color: white;
   background-color: black;
   padding: 12px;
+}
+
+.addToBagButton:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .onHoverHeart {
