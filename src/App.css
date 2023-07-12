@@ -153,11 +153,17 @@
 }
 
 .addToBagButton {
-  justify-content: center;
-  flex-direction: column;
+  text-align: center;
+
   color: white;
   background-color: black;
-  padding: 12px;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 80%;
+  text-transform: uppercase;
+
+  font-weight: 400;
 }
 
 .addToBagButton:hover {
@@ -165,7 +171,38 @@
   color: rgb(0, 0, 0);
 }
 
-.onHoverHeart {
+.shopButton {
+  text-align: center;
+  color: white;
+  background-color: black;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 80%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.shopButton:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.mustHaveText {
+  text-align: center;
+  justify-content: center;
+
+  position: relative;
+  bottom: 190px;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  color: rgb(0, 0, 0);
+  left: 40px;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+
+/* .onHoverHeart {
   position: relative;
   top: -355px;
   left: 45px;
@@ -175,7 +212,7 @@
   position: relative;
   top: -200px;
   left: 30px;
-}
+} */
 
 /* _____🍎🍎🍎🍎🍎 FOOTER CONTENT 🍎🍎🍎🍎🍎_____ */
 

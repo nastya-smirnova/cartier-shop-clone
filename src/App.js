@@ -94,6 +94,7 @@ function App() {
                   className="watchesImages"
                   src="https://www.cartier.com/variants/images/44733502651435035/img1/w960_tpadding12.jpg"
                 ></img>
+                <div className="mustHaveText">Must have</div>
                 <figcaption className="imageCaption">
                   SANTOS DE <br />
                   CARTIER <br />
@@ -113,6 +114,7 @@ function App() {
                 className="watchesImages"
                 src="https://www.cartier.com/variants/images/25458910981768052/img1/w960_tpadding12.jpg"
               ></img>
+              <div className="mustHaveText">Must have</div>
               <figcaption className="imageCaption">
                 JUSTE UN CLOU <br />
                 BRACELET,
@@ -120,13 +122,14 @@ function App() {
               </figcaption>
               <p>Yellow gold</p>
               <p className="price">£ 3,450</p>
-              <button className="addToBagButton">Shop</button>
+              <button className="shopButton">Shop</button>
             </div>
             <div className="santosContainer">
               <img
                 className="watchesImages"
                 src="https://www.cartier.com/variants/images/13452677149801337/img1/w960_tpadding12.jpg"
               ></img>
+              <div className="mustHaveText">Must have</div>
               <figcaption className="imageCaption">
                 TANK LOUIS <br />
                 CARTIER <br />
@@ -144,6 +147,7 @@ function App() {
                 className="watchesImages"
                 src="https://www.cartier.com/variants/images/25372685655708131/img1/w960_tpadding12.jpg"
               ></img>
+              <div className="mustHaveText">Must have</div>
               <figcaption className="imageCaption">
                 LOVE <br />
                 BRACELET, <br />
@@ -151,7 +155,7 @@ function App() {
               </figcaption>
               <p>Yellow gold</p>
               <p className="price">£ 4,550</p>
-              <button className="addToBagButton">Shop</button>
+              <button className="shopButton">Shop</button>
             </div>
           </div>
         </div>
