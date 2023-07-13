@@ -9,7 +9,11 @@ import {
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 
-function App() {
+const App = () => {
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <div className="App">
       <header className="headerContainer">
@@ -42,40 +46,55 @@ function App() {
             The Tank Watch, Panthère bracelet, or Love ring: the Cartier Icons
             shine brightest in the sun.
           </p>
-          <button className="discoverSelectionButton">
+          <button
+            className="discoverSelectionButton"
+            onClick={() =>
+              openInNewTab(
+                "https://www.cartier.com/en-gb/be-inspired/cartier-icons"
+              )
+            }
+          >
             Discover the selection
           </button>
         </div>
-        <div className="collectionsContainer">
-          <div className="collectionsContainer">
-            <div className="goldenHourContainer">
-              <img
-                className="goldenHourImage"
-                src="https://www.cartier.com/content/images/cms/ycm/resource/blob/531942/2d1c27afae055bad3bb759fff955e3aa/picture-a-data.jpg/w1920.jpg"
-              ></img>
+        <div>
+          <div className="seasonalAccessoriesContainer">
+            <div className="one">
+              <img src="https://www.cartier.com/content/images/cms/ycm/resource/blob/531942/2d1c27afae055bad3bb759fff955e3aa/picture-a-data.jpg/w1920.jpg"></img>
               <div>
                 <h2>Golden hour</h2>
                 <p>
                   How to shine at the beach. Earrings, necklaces, rings: the
                   Maison's creations love to soak up the sun.
                 </p>
-                <button className="discoverSelectionButton">
+                <button
+                  className="discoverSelectionButton"
+                  onClick={() =>
+                    openInNewTab(
+                      "https://www.cartier.com/en-gb/be-inspired/watches-must-haves"
+                    )
+                  }
+                >
                   Discover the selection
                 </button>
               </div>
             </div>
-            <div className="summerTimeContainer">
-              <img
-                className="summerTimeImage"
-                src="https://www.cartier.com/content/images/cms/ycm/resource/blob/531916/9ed371f1813a4deb1151cca58a519456/picture-b-data.jpg/w1920.jpg"
-              ></img>
+            <div className="two">
+              <img src="https://www.cartier.com/content/images/cms/ycm/resource/blob/531916/9ed371f1813a4deb1151cca58a519456/picture-b-data.jpg/w1920.jpg"></img>
               <div>
                 <h2>Summer time</h2>
                 <p>
                   Uncover the watch collections that have become emblems of
                   design at Cartier.
                 </p>
-                <button className="discoverSelectionButton">
+                <button
+                  className="discoverSelectionButton"
+                  onClick={() =>
+                    openInNewTab(
+                      "https://www.cartier.com/en-gb/be-inspired/jewellery-must-haves"
+                    )
+                  }
+                >
                   Discover the selection
                 </button>
               </div>
@@ -158,12 +177,31 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="baignoireContainer">
+        <div className="seasonalAccessoriesContainer"></div>
+        <div className="one">
           <img
             className="sunshineIconsImage"
-            src="https://www.cartier.com/content/images/cms/ycm/resource/blob/531966/65e13d773e523955e5f360d23d508735/single-banner-image-data.jpg/w2560.jpg"
+            src="https://www.cartier.com/content/images/cms/ycm/resource/blob/532040/cf713a6be639bfb5e448bc55d9c9a5a9/picture-a-data.jpg/w1920.jpg"
           ></img>
-          <h2>Baignoire</h2>
+          <h2>SEASONAL ACCESSORIES</h2>
+          <p>
+            Sunglasses, bags, silk scarves... the Maison's accessories dive into
+            the summer in an elegant array of joyful colours.
+          </p>
+          <button className="discoverSelectionButton">
+            Discover the selection
+          </button>
+        </div>
+        <div className="one">
+          <img
+            className="sunshineIconsImage"
+            src="https://www.cartier.com/content/images/cms/ycm/resource/blob/532056/745f79d63aeb7c60c93ea9b7e079006e/picture-b-data.jpg/w1920.jpg"
+          ></img>
+          <h2>OBJECTS ON HOLIDAY</h2>
+          <p>
+            Playful objects with a wandering spirit celebrate the sweetness of
+            life in every moment of the summer.
+          </p>
           <button className="discoverSelectionButton">
             Discover the selection
           </button>
@@ -172,6 +210,6 @@ function App() {
       <footer className="footerContainer"> Cartier footer</footer>
     </div>
   );
-}
+};
 
 export default App;

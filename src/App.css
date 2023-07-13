@@ -38,49 +38,13 @@
 }
 
 .sunshineIconsImage {
-  height: 100%;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .sunshineIconsHeader {
   font-weight: 700;
   text-transform: uppercase;
-}
-
-.collectionsContainer {
-  display: flex;
-  padding-left: 6rem;
-  padding-right: 6rem;
-  justify-content: center;
-  padding-bottom: 3rem;
-}
-
-.goldenHourContainer {
-  display: flex;
-  justify-content: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 1rem;
-}
-
-.goldenHourImage {
-  justify-content: center;
-  display: flex;
-  height: 450px;
-  max-width: 450px;
-}
-
-.summerTimeContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1rem;
-}
-
-.summerTimeImage {
-  display: flex;
-  height: 450px;
-  max-width: 450px;
 }
 
 .discoverSelectionButton {
@@ -235,6 +199,25 @@
   padding-bottom: 4rem;
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+.seasonalAccessoriesContainer {
+  width: 100%;
+  padding: 1rem;
+}
+
+.one {
+  display: inline-flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 0.5rem;
+}
+
+.two {
+  display: inline-flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 0.5rem;
 }
 /* _____🍎🍎🍎🍎🍎 FOOTER CONTENT 🍎🍎🍎🍎🍎_____ */
 
