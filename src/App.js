@@ -100,7 +100,9 @@ function App() {
                   CARTIER <br />
                   WATCH
                 </figcaption>
-                <p>Medium model, automatic...</p>
+                <p className="productDescriptionText">
+                  Medium model, automatic...
+                </p>
                 <p className="price">£ 6,750</p>
                 <button className="addToBagButton">Add to bag</button>
               </div>
@@ -120,7 +122,7 @@ function App() {
                 BRACELET,
                 <br /> SMALL MODEL
               </figcaption>
-              <p>Yellow gold</p>
+              <p className="productDescriptionText">Yellow gold</p>
               <p className="price">£ 3,450</p>
               <button className="shopButton">Shop</button>
             </div>
@@ -135,10 +137,7 @@ function App() {
                 CARTIER <br />
                 WATCH
               </figcaption>
-              <p>
-                Large model, quartz <br />
-                movement, 18K...
-              </p>
+              <p className="productDescriptionText">Large model, quartz...</p>
               <p className="price">£ 11,000</p>
               <button className="addToBagButton">Add to bag</button>
             </div>
@@ -153,11 +152,21 @@ function App() {
                 BRACELET, <br />
                 SMALL MODEL
               </figcaption>
-              <p>Yellow gold</p>
+              <p className="productDescriptionText">Yellow gold</p>
               <p className="price">£ 4,550</p>
               <button className="shopButton">Shop</button>
             </div>
           </div>
+        </div>
+        <div className="baignoireContainer">
+          <img
+            className="sunshineIconsImage"
+            src="https://www.cartier.com/content/images/cms/ycm/resource/blob/531966/65e13d773e523955e5f360d23d508735/single-banner-image-data.jpg/w2560.jpg"
+          ></img>
+          <h2>Baignoire</h2>
+          <button className="discoverSelectionButton">
+            Discover the selection
+          </button>
         </div>
       </main>
       <footer className="footerContainer"> Cartier footer</footer>

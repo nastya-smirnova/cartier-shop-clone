@@ -52,6 +52,7 @@
   padding-left: 6rem;
   padding-right: 6rem;
   justify-content: center;
+  padding-bottom: 3rem;
 }
 
 .goldenHourContainer {
@@ -92,16 +93,19 @@
   display: inline-block;
   font-size: 16px;
   font-style: italic;
-  color: brown;
+  color: rgb(0, 0, 0);
   padding: 1rem;
+
+  text-decoration: underline;
 }
 
 .discoverSelectionButton:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
 }
 
 .cultureOfDesignContainer {
   padding: 1rem;
+
   background-color: rgb(240, 240, 240);
 }
 
@@ -160,10 +164,14 @@
 
   padding-top: 8px;
   padding-bottom: 8px;
+  margin-bottom: 1rem;
   width: 80%;
   text-transform: uppercase;
 
   font-weight: 400;
+
+  border-color: black;
+  border-width: 1px;
 }
 
 .addToBagButton:hover {
@@ -178,9 +186,13 @@
 
   padding-top: 8px;
   padding-bottom: 8px;
+
   width: 80%;
   text-transform: uppercase;
   font-weight: 400;
+
+  border-color: black;
+  border-width: 1px;
 }
 
 .shopButton:hover {
@@ -202,6 +214,10 @@
   text-transform: uppercase;
 }
 
+.productDescriptionText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* .onHoverHeart {
   position: relative;
   top: -355px;
@@ -214,6 +230,12 @@
   left: 30px;
 } */
 
+.baignoireContainer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
 /* _____🍎🍎🍎🍎🍎 FOOTER CONTENT 🍎🍎🍎🍎🍎_____ */
 
 .footerContainer {
