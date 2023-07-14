@@ -183,7 +183,7 @@ const App = () => {
             className="sunshineIconsImage"
             src="https://www.cartier.com/content/images/cms/ycm/resource/blob/532040/cf713a6be639bfb5e448bc55d9c9a5a9/picture-a-data.jpg/w1920.jpg"
           ></img>
-          <h2>SEASONAL ACCESSORIES</h2>
+          <h2>Seasonal accessories</h2>
           <p>
             Sunglasses, bags, silk scarves... the Maison's accessories dive into
             the summer in an elegant array of joyful colours.
@@ -197,8 +197,8 @@ const App = () => {
             className="sunshineIconsImage"
             src="https://www.cartier.com/content/images/cms/ycm/resource/blob/532056/745f79d63aeb7c60c93ea9b7e079006e/picture-b-data.jpg/w1920.jpg"
           ></img>
-          <h2>OBJECTS ON HOLIDAY</h2>
-          <p>
+          <h2>Objects on holiday</h2>
+          <p className="productDescriptionText">
             Playful objects with a wandering spirit celebrate the sweetness of
             life in every moment of the summer.
           </p>
