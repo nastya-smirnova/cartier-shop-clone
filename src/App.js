@@ -177,34 +177,76 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className="seasonalAccessoriesContainer"></div>
-        <div className="one">
-          <img
-            className="sunshineIconsImage"
-            src="https://www.cartier.com/content/images/cms/ycm/resource/blob/532040/cf713a6be639bfb5e448bc55d9c9a5a9/picture-a-data.jpg/w1920.jpg"
-          ></img>
-          <h2>Seasonal accessories</h2>
-          <p>
-            Sunglasses, bags, silk scarves... the Maison's accessories dive into
-            the summer in an elegant array of joyful colours.
-          </p>
-          <button className="discoverSelectionButton">
-            Discover the selection
-          </button>
-        </div>
-        <div className="one">
-          <img
-            className="sunshineIconsImage"
-            src="https://www.cartier.com/content/images/cms/ycm/resource/blob/532056/745f79d63aeb7c60c93ea9b7e079006e/picture-b-data.jpg/w1920.jpg"
-          ></img>
-          <h2>Objects on holiday</h2>
-          <p className="productDescriptionText">
-            Playful objects with a wandering spirit celebrate the sweetness of
-            life in every moment of the summer.
-          </p>
-          <button className="discoverSelectionButton">
-            Discover the selection
-          </button>
+        <div className="seasonalAccessoriesContainer">
+          <div className="one">
+            <img
+              className="sunshineIconsImage"
+              src="https://www.cartier.com/content/images/cms/ycm/resource/blob/532040/cf713a6be639bfb5e448bc55d9c9a5a9/picture-a-data.jpg/w1920.jpg"
+            ></img>
+            <h2>Seasonal accessories</h2>
+            <p>
+              Sunglasses, bags, silk scarves... the Maison's accessories dive
+              into the summer in an elegant array of joyful colours.
+            </p>
+            <button className="discoverSelectionButton">
+              Discover the selection
+            </button>
+          </div>
+          <div className="one">
+            <img
+              className="sunshineIconsImage"
+              src="https://www.cartier.com/content/images/cms/ycm/resource/blob/532056/745f79d63aeb7c60c93ea9b7e079006e/picture-b-data.jpg/w1920.jpg"
+            ></img>
+            <h2>Objects on holiday</h2>
+            <p className="productDescriptionText">
+              Playful objects with a wandering spirit celebrate the sweetness of
+              life in every moment of the summer.
+            </p>
+            <button className="discoverSelectionButton">
+              Discover the selection
+            </button>
+          </div>
+          {/* ggggg */}
+          <div className="one">
+            <img
+              className="sunshineIconsImage"
+              src="https://www.cartier.com/content/images/cms/ycm/resource/blob/539234/360ff0cfb8480b400ccb0e59f9408205/picture-a-data.jpg/w1600.jpg"
+            ></img>
+            <h2>BAIGNOIRE</h2>
+
+            <button className="discoverSelectionButton">
+              Discover the selection
+            </button>
+          </div>
+          <div className="one">
+            <img
+              className="sunshineIconsImage"
+              src="https://www.cartier.com/content/images/cms/ycm/resource/blob/539232/31c3997fffece8ac61c6356f16d1dd8e/picture-b-data.jpg/w1600.jpg"
+            ></img>
+            <h2>LE VOYAGE RECOMMENCÉ</h2>
+
+            <button className="discoverSelectionButton">
+              Discover the selection
+            </button>
+          </div>
+          <hr className="solidDivider"></hr>
+          <div className="newsletterContainer">
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <label for="email"></label>
+
+            <input
+              className="newsletterInput"
+              type="email"
+              id="email"
+              pattern=".+@globex\.com"
+              size="30"
+              placeholder="Email (required field)*"
+              required
+            ></input>
+            <button className="proceedButton">Proceed</button>
+          </div>
+
+          <hr className="solidDivider"></hr>
         </div>
       </main>
       <footer className="footerContainer"> Cartier footer</footer>

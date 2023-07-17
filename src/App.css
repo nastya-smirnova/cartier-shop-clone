@@ -221,6 +221,37 @@
   width: 40%;
   padding: 0.5rem;
 }
+
+.solidDivider {
+  border-top: 0.5px solid #565656;
+  width: 85%;
+}
+
+.newsletterContainer {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.newsletterInput {
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.proceedButton {
+  background-color: black;
+  color: white;
+  border: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
 /* _____🍎🍎🍎🍎🍎 FOOTER CONTENT 🍎🍎🍎🍎🍎_____ */
 
 .footerContainer {
