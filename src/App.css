@@ -257,19 +257,21 @@
 
 .footerContainer {
   display: flex;
-  background-color: blanchedalmond;
+  background-color: white;
   justify-content: center;
-
   padding: 1rem;
-  flex-direction: row;
 }
 
 .footerRowContainer {
-  flex-direction: column;
   flex-grow: 1;
 }
 
 .footerRowContent {
   color: rgb(225, 24, 141);
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.followUsImage {
+  width: 200px;
+  height: 200px;
 }

@@ -6,6 +6,7 @@ import {
   faBasketShopping,
   faHeart,
   faLocationPin,
+  faPhotoFilm,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -206,7 +207,7 @@ const App = () => {
               Discover the selection
             </button>
           </div>
-          {/* ggggg */}
+
           <div className="one">
             <img
               className="sunshineIconsImage"
@@ -224,7 +225,6 @@ const App = () => {
               src="https://www.cartier.com/content/images/cms/ycm/resource/blob/539232/31c3997fffece8ac61c6356f16d1dd8e/picture-b-data.jpg/w1600.jpg"
             ></img>
             <h2>LE VOYAGE RECOMMENCÉ</h2>
-
             <button className="discoverSelectionButton">
               Discover the selection
             </button>
@@ -233,7 +233,6 @@ const App = () => {
           <div className="newsletterContainer">
             <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
             <label for="email"></label>
-
             <input
               className="newsletterInput"
               type="email"
@@ -245,13 +244,13 @@ const App = () => {
             ></input>
             <button className="proceedButton">Proceed</button>
           </div>
-
           <hr className="solidDivider"></hr>
         </div>
       </main>
+
       <footer className="footerContainer">
-        <h3 className="footerRowContainer">Custom care</h3>
-        <div className="footerRowContent">
+        <div className="footerRowContainer">
+          <h3>Custom care</h3>
           <p>Contact us</p>
           <p>Call now: +44 (0)20 3780 8185</p>
           <p>Shopping online</p>
@@ -261,15 +260,45 @@ const App = () => {
           <p>Help</p>
           <p>Sitemap</p>
         </div>
-        <h3 className="footerRowContainer">Our company</h3>
-        <div className="footerRowContent">
+        <div className="footerRowContainer">
+          <h3 className="footerRowContainer">Our company</h3>
           <p>Find a boutique</p>
           <p>Careers</p>
           <p>Cartier and corporate responsibility</p>
         </div>
-        <h3 className="footerRowContainer">Legal & privacy</h3>
-        <h3 className="footerRowContainer">Follow us</h3>
+        <div className="footerRowContainer">
+          <h3>Legal & privacy</h3>
+          <p>Terms of use</p>
+          <p>Conditions of safe</p>
+          <p>Peturns policy</p>
+          <p>Cookie policy</p>
+          <p>Cookie center</p>
+          <p>Modern slavery act statement</p>
+        </div>
+        <div className="footerRowContainer">
+          <h3 className="footerRowContainer">Follow us</h3>
+          <FontAwesomeIcon icon={faPhotoFilm} />
+          <img
+            className="followUsImage"
+            src="https://www.cartier.com/content/images/cms/ycm/resource/blob/191716/cfe85e78a25bad631c3e3bdeb6c4faef/cartier-royal-warrant-15-07-21-png-data.png/w320.jpg"
+          ></img>
+        </div>
       </footer>
+      <div>
+        <hr className="solidDivider"></hr>
+        <img
+          className="followUsImage"
+          src="https://www.cartier.com/content/images/cms/ycm/resource/blob/42310/3c55d864c111213080a87c8453aeaa0c/cartier-women-s-logo-final-data.png/w340.jpg"
+        ></img>
+        <img
+          className="followUsImage"
+          src="https://www.cartier.com/content/images/cms/ycm/resource/blob/42316/3b1541992943e8e5156d8a784eaee9fd/cartier-foundation-logo-data.png/w340.jpg"
+        ></img>
+        <img
+          className="followUsImage"
+          src="https://www.cartier.com/content/images/cms/ycm/resource/blob/42312/42538c26e63eefec9da19585c88b90eb/cartier-philanthropy-logo-data.png/w340.jpg"
+        ></img>
+      </div>
     </div>
   );
 };
