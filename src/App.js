@@ -249,7 +249,27 @@ const App = () => {
           <hr className="solidDivider"></hr>
         </div>
       </main>
-      <footer className="footerContainer"> Cartier footer</footer>
+      <footer className="footerContainer">
+        <h3 className="footerRowContainer">Custom care</h3>
+        <div className="footerRowContent">
+          <p>Contact us</p>
+          <p>Call now: +44 (0)20 3780 8185</p>
+          <p>Shopping online</p>
+          <p>Track your order</p>
+          <p>Shipping & delivery</p>
+          <p>Orders & payment</p>
+          <p>Help</p>
+          <p>Sitemap</p>
+        </div>
+        <h3 className="footerRowContainer">Our company</h3>
+        <div className="footerRowContent">
+          <p>Find a boutique</p>
+          <p>Careers</p>
+          <p>Cartier and corporate responsibility</p>
+        </div>
+        <h3 className="footerRowContainer">Legal & privacy</h3>
+        <h3 className="footerRowContainer">Follow us</h3>
+      </footer>
     </div>
   );
 };
