@@ -3,25 +3,30 @@
 }
 .headerContainer {
   background-color: white;
-  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   height: 70px;
 }
 .navigationContainer {
   padding: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 .list {
   display: flex;
 }
 .listItem {
   justify-content: center;
-  display: inline-flex;
   font-size: larger;
 
   flex-grow: 1;
   list-style: none;
 }
 .listLogoItem {
-  flex-grow: 9;
+  /* flex-grow: 9; */
+  flex-grow: 5;
   list-style: none;
   font-size: larger;
 }
@@ -29,7 +34,7 @@
 /* _____🍋🍋🍋🍋🍋 MAIN CONTENT 🍋🍋🍋🍋🍋_____ */
 
 .mainContainer {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 
 .sunshineIconsContainer {
@@ -258,8 +263,10 @@
 .footerContainer {
   display: flex;
   background-color: white;
-  justify-content: center;
-  padding: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .footerRowContainer {
@@ -267,7 +274,6 @@
 }
 
 .footerRowContent {
-  color: rgb(225, 24, 141);
   flex-direction: column;
 }
 

@@ -4,6 +4,7 @@ import {
   faArrowAltCircleRight,
   faBars,
   faBasketShopping,
+  faExternalLink,
   faHeart,
   faLocationPin,
   faPhotoFilm,
@@ -262,8 +263,14 @@ const App = () => {
         </div>
         <div className="footerRowContainer">
           <h3 className="footerRowContainer">Our company</h3>
-          <p>Find a boutique</p>
-          <p>Careers</p>
+          <p>
+            Find a boutique &nbsp;
+            <FontAwesomeIcon icon={faExternalLink} />
+          </p>
+          <p>
+            Careers &nbsp;
+            <FontAwesomeIcon icon={faExternalLink} />
+          </p>
           <p>Cartier and corporate responsibility</p>
         </div>
         <div className="footerRowContainer">
@@ -277,7 +284,6 @@ const App = () => {
         </div>
         <div className="footerRowContainer">
           <h3 className="footerRowContainer">Follow us</h3>
-          <FontAwesomeIcon icon={faPhotoFilm} />
           <img
             className="followUsImage"
             src="https://www.cartier.com/content/images/cms/ycm/resource/blob/191716/cfe85e78a25bad631c3e3bdeb6c4faef/cartier-royal-warrant-15-07-21-png-data.png/w320.jpg"
