@@ -14,6 +14,62 @@
   justify-content: center;
   align-items: center;
 }
+
+/* DropDownButton */
+.dropbtn {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 230px;
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+}
+
+.dropDownLocation {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0px;
+  background-color: rgb(229, 3, 3);
+  color: white;
+}
+
+.dropDownLocation:hover {
+  text-decoration: underline;
+}
+
+/* DropDownButtonEnd */
+
 .list {
   display: flex;
 }

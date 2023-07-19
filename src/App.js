@@ -2,11 +2,25 @@ import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowAltCircleRight,
+  faArrowCircleRight,
+  faArrowPointer,
+  faArrowRightArrowLeft,
+  faArrowRotateRight,
+  faArrowTurnRight,
+  faArrowsLeftRight,
   faBars,
   faBasketShopping,
+  faChevronRight,
   faExternalLink,
+  faHandPointRight,
   faHeart,
+  faHeartCircleBolt,
+  faLocation,
+  faLocationArrow,
   faLocationPin,
+  faMapMarked,
+  faMousePointer,
+  faPersonWalkingArrowRight,
   faPhotoFilm,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
@@ -21,9 +35,56 @@ const App = () => {
       <header className="headerContainer">
         <nav className="navigationContainer">
           <ul className="list">
-            <li className="listItem">
+            <div className="dropdown">
+              <button className="dropbtn">
+                <FontAwesomeIcon icon={faBars} />
+              </button>
+              <div className="dropdown-content">
+                <a href="#">
+                  Summer &nbsp;
+                  <FontAwesomeIcon icon={faChevronRight} />
+                </a>
+                <a href="#">
+                  High jewellery &nbsp;
+                  <FontAwesomeIcon icon={faChevronRight} />
+                </a>
+                <a href="#">
+                  Jewellery &nbsp;
+                  <FontAwesomeIcon icon={faChevronRight} />
+                </a>
+                <a href="#">
+                  Watches &nbsp;
+                  <FontAwesomeIcon icon={faChevronRight} />
+                </a>
+                <a href="#">
+                  Bags and accessories &nbsp;
+                  <FontAwesomeIcon icon={faChevronRight} />
+                </a>
+                <a href="#">
+                  Art of living &nbsp;
+                  <FontAwesomeIcon icon={faChevronRight} />
+                </a>
+                <a href="#">
+                  Fragrances &nbsp;
+                  <FontAwesomeIcon icon={faChevronRight} />
+                </a>
+                <a href="#">
+                  The maison &nbsp;
+                  <FontAwesomeIcon icon={faChevronRight} />
+                </a>
+                <a href="#">
+                  News &nbsp;
+                  <FontAwesomeIcon icon={faChevronRight} />
+                </a>
+                <p className="dropDownLocation">
+                  <FontAwesomeIcon icon={faLocationPin} /> &nbsp; UNITED KINGDOM
+                </p>
+              </div>
+            </div>
+
+            {/* <li className="listItem">
               <FontAwesomeIcon icon={faBars} />
-            </li>
+            </li> */}
             <li className="listItem">
               <FontAwesomeIcon icon={faSearch} />
             </li>
@@ -292,7 +353,7 @@ const App = () => {
       </footer>
       <div>
         <hr className="solidDivider"></hr>
-        <img
+        {/* <img
           className="followUsImage"
           src="https://www.cartier.com/content/images/cms/ycm/resource/blob/42310/3c55d864c111213080a87c8453aeaa0c/cartier-women-s-logo-final-data.png/w340.jpg"
         ></img>
@@ -303,7 +364,7 @@ const App = () => {
         <img
           className="followUsImage"
           src="https://www.cartier.com/content/images/cms/ycm/resource/blob/42312/42538c26e63eefec9da19585c88b90eb/cartier-philanthropy-logo-data.png/w340.jpg"
-        ></img>
+        ></img> */}
       </div>
     </div>
   );
