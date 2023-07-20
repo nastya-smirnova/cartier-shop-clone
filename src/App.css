@@ -3,11 +3,32 @@
 }
 .headerContainer {
   background-color: white;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 4rem;
   padding-right: 4rem;
   height: 70px;
+}
+
+.bookAppointmentBannerContainer {
+  display: flex;
+  justify-content: center;
+
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  font-weight: 100px;
+  text-transform: uppercase;
+  padding-left: 6rem;
+}
+.bookAppointmentCloseButton {
+  flex-grow: 2;
+
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: medium;
+  border: none;
+  background-color: #ddd;
 }
 .navigationContainer {
   padding: 1rem;
@@ -336,4 +357,13 @@
 .followUsImage {
   width: 200px;
   height: 200px;
+}
+
+.footerBanner {
+  background-color: rgb(229, 3, 3);
+  color: rgb(255, 255, 255);
+  padding: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: underline;
 }

@@ -1,27 +1,11 @@
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowAltCircleRight,
-  faArrowCircleRight,
-  faArrowPointer,
-  faArrowRightArrowLeft,
-  faArrowRotateRight,
-  faArrowTurnRight,
-  faArrowsLeftRight,
   faBars,
   faBasketShopping,
   faChevronRight,
   faExternalLink,
-  faHandPointRight,
-  faHeart,
-  faHeartCircleBolt,
-  faLocation,
-  faLocationArrow,
   faLocationPin,
-  faMapMarked,
-  faMousePointer,
-  faPersonWalkingArrowRight,
-  faPhotoFilm,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -32,6 +16,12 @@ const App = () => {
 
   return (
     <div className="App">
+      <div className="bookAppointmentBannerContainer">
+        <p className="bookAppointmentBanner">
+          Book an appointment with a London boutique +{" "}
+        </p>
+        <button className="bookAppointmentCloseButton">X</button>
+      </div>
       <header className="headerContainer">
         <nav className="navigationContainer">
           <ul className="list">
@@ -365,6 +355,10 @@ const App = () => {
           className="followUsImage"
           src="https://www.cartier.com/content/images/cms/ycm/resource/blob/42312/42538c26e63eefec9da19585c88b90eb/cartier-philanthropy-logo-data.png/w340.jpg"
         ></img> */}
+      </div>
+      <div className="footerBanner ">
+        <p>Shop in: United Kingdom</p>
+        <button>Change Location</button>
       </div>
     </div>
   );
