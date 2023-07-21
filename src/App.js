@@ -16,12 +16,30 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="bookAppointmentBannerContainer">
+      <div className="tab">
+        <a className="tab" href="#link1">
+          Book an appointment with a London boutique +
+        </a>
+        <button>X</button>
+
+        <div className="div" id="link1">
+          <p>Book an appointment with a London boutique +</p>
+          <p>
+            Plan your visit to a London Boutique by booking an appointment here.
+            Our Cartier ambassadors are here to assist you with your online
+            order. For online delivery & returns information click here. You can
+            reach us in the UK by phone on +44 (0)20 3893 4243
+          </p>
+          <button>X</button>
+        </div>
+      </div>
+
+      {/* <div className="bookAppointmentBannerContainer">
         <p className="bookAppointmentBanner">
           Book an appointment with a London boutique +{" "}
         </p>
         <button className="bookAppointmentCloseButton">X</button>
-      </div>
+      </div> */}
       <header className="headerContainer">
         <nav className="navigationContainer">
           <ul className="list">
