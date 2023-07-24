@@ -41,7 +41,7 @@
   display: block;
 }
 
-/* .bookAppointmentBannerContainer {
+.bookAppointmentBannerContainer {
   display: flex;
   justify-content: center;
 
@@ -52,17 +52,15 @@
   font-size: 15px;
   text-transform: uppercase;
   padding-left: 6rem;
-} */
+}
 
 .bookAppointmentBannerContainer:hover {
   cursor: pointer;
 }
 
 .bookAppointmentCloseButton {
-  flex-grow: 2;
-
   color: rgb(0, 0, 0);
-  font-weight: 500;
+  font-weight: 300;
   font-size: medium;
   border: none;
   background-color: #ddd;
@@ -71,6 +69,7 @@
 .bookAppointmentCloseButton:hover {
   color: rgb(255, 0, 0);
 }
+
 .navigationContainer {
   padding: 1rem;
   justify-content: center;
