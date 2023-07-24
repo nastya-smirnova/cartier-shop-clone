@@ -1,15 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBars,
-  faBasketShopping,
-  faChevronRight,
-  faExternalLink,
-  faLocationPin,
-  faSearch,
-} from "@fortawesome/free-solid-svg-icons";
+import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className="footerContainer">
       <div className="footerRowContainer">

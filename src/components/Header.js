@@ -4,7 +4,6 @@ import {
   faBars,
   faBasketShopping,
   faChevronRight,
-  faExternalLink,
   faLocationPin,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
