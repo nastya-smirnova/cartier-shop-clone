@@ -76,7 +76,11 @@ export const Header = () => {
             <li className="listItem">
               <FontAwesomeIcon icon={faSearch} />
             </li>
-            <li className="listLogoItem">CARTIER</li>
+            {/* <li className="listLogoItem">CARTIER</li> */}
+            <img
+              className="listLogoItem"
+              src="https://www.cartier.com/ytos/resources/CARTIER/images/cartier-logo.svg"
+            />
             <li className="listItem">
               <FontAwesomeIcon icon={faLocationPin} />
             </li>

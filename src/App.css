@@ -133,6 +133,7 @@
 
 .list {
   display: flex;
+  align-items: center;
 }
 .listItem {
   justify-content: center;
@@ -146,6 +147,8 @@
   flex-grow: 5;
   list-style: none;
   font-size: larger;
+  width: 40px;
+  height: 40px;
 }
 
 /* _____🍋🍋🍋🍋🍋 MAIN CONTENT 🍋🍋🍋🍋🍋_____ */

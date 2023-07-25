@@ -13,7 +13,6 @@ export const HeaderBanner = () => {
         <button className="bookAppointmentCloseButton">
           <FontAwesomeIcon icon={faClose} />
         </button>
-
         <div className="div" id="link1">
           <p>Book an appointment with a London boutique +</p>
           <p>
