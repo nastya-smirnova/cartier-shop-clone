@@ -27,8 +27,12 @@ export const Header = () => {
               <button className="dropbtn">
                 <FontAwesomeIcon icon={faBars} />
               </button>
-              <div className="dropdown-content">
-                <a href="#">
+              <div className="dropdownContent">
+                <img
+                  className="menuLogoItem"
+                  src="https://www.cartier.com/ytos/resources/CARTIER/images/cartier-logo.svg"
+                />
+                <a className="dropdownListItem" href="#">
                   Summer &nbsp;
                   <FontAwesomeIcon icon={faChevronRight} />
                 </a>

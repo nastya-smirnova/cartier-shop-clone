@@ -7,7 +7,7 @@
   padding-bottom: 1rem;
   padding-left: 4rem;
   padding-right: 4rem;
-  height: 70px;
+  height: 80px;
 }
 
 .tab {
@@ -15,23 +15,20 @@
   color: rgb(0, 0, 0);
   padding: 1rem;
   font-weight: 100px;
-  font-size: 15px;
+  font-size: 13px;
   text-transform: uppercase;
-  /* padding-left: 6rem; */
   text-decoration: none;
   justify-content: center;
 }
 
 .tab div {
   display: none;
-  /* display: flex; */
-  justify-content: center;
 
   background-color: #ddd;
   color: rgb(0, 0, 0);
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
   font-weight: 100px;
-  font-size: 15px;
+  font-size: 13px;
   text-transform: uppercase;
   padding: 2rem;
   text-decoration: none;
@@ -49,7 +46,7 @@
   color: rgb(0, 0, 0);
   padding: 0.5rem;
   font-weight: 100px;
-  font-size: 15px;
+  font-size: 13px;
   text-transform: uppercase;
   padding-left: 6rem;
 }
@@ -58,7 +55,12 @@
   cursor: pointer;
 }
 
-.bookAppointmentCloseButton {
+.closeButtonContainer {
+  display: flex;
+}
+
+.closeButton {
+  flex-direction: row;
   color: rgb(0, 0, 0);
   font-weight: 300;
   font-size: medium;
@@ -66,8 +68,24 @@
   background-color: #ddd;
 }
 
-.bookAppointmentCloseButton:hover {
+.closeButton:hover {
   color: rgb(255, 0, 0);
+}
+
+.bookAppText {
+  padding-top: 1rem;
+  text-transform: none;
+  margin: 15px;
+  font-size: 15px;
+  color: #414141;
+  line-height: 20px;
+}
+
+.bookAppText a {
+  color: #414141;
+}
+.bookAppText a:hover {
+  text-decoration: none;
 }
 
 .navigationContainer {
@@ -89,27 +107,27 @@
   display: inline-block;
 }
 
-.dropdown-content {
+.dropdownContent {
   display: none;
   position: absolute;
   background-color: #ffffff;
-  min-width: 230px;
+  min-width: 400px;
   box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropdownContent a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: flex;
 }
 
-.dropdown-content a:hover {
+.dropdownContent a:hover {
   background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdownContent {
   display: block;
 }
 
@@ -129,7 +147,17 @@
   text-decoration: underline;
 }
 
+.dropdownListItem {
+  display: flex;
+  flex-grow: 2;
+}
+
 /* DropDownButtonEnd */
+.menuLogoItem {
+  padding: 1rem;
+  width: 30%;
+  height: 40%;
+}
 
 .list {
   display: flex;
@@ -143,7 +171,6 @@
   list-style: none;
 }
 .listLogoItem {
-  /* flex-grow: 9; */
   flex-grow: 5;
   list-style: none;
   font-size: larger;
